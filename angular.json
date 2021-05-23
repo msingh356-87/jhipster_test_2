@@ -95,6 +95,7 @@
   },
   "defaultProject": "jhipster-test-2",
   "cli": {
+    "analytics": false,
     "packageManager": "npm"
   }
 }
