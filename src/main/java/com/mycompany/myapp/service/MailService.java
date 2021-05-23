@@ -91,4 +91,9 @@ public class MailService {
         String subject = messageSource.getMessage(titleKey, null, locale);
         sendEmail(user.getEmail(), subject, content, false, true);
     }
+
+    public void sendActivationEmail(Object any) {
+        // TODO Auto-generated method stub
+
+    }
 }
